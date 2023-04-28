@@ -5,6 +5,15 @@
 #include <string.h>
 #include <stddef.h>
 
+/**
+ * struct list_t - singly linked list
+ * @str: string
+ * @len: length of string
+ * @next: points to next string
+ *
+ * Description: singly linked list structure
+ */
+
 typedef struct list_t
 {
 	char *str;
